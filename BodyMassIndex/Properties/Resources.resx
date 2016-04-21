@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BMIGroupBox" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BMILabelCH" xml:space="preserve">
+    <value>健康指数：</value>
+  </data>
+  <data name="BMILabelE" xml:space="preserve">
+    <value>BMI:</value>
+  </data>
+  <data name="CalculateButtonCH" xml:space="preserve">
+    <value>计算</value>
+  </data>
+  <data name="CalculateButtonE" xml:space="preserve">
+    <value>Calculate</value>
+  </data>
+  <data name="ChestLabelCH" xml:space="preserve">
+    <value>胸围 (cm):</value>
+  </data>
+  <data name="ChestLabelE" xml:space="preserve">
+    <value>Chest (cm):</value>
+  </data>
+  <data name="ClearButtonCH" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="ClearButtonE" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="CMILabelCH" xml:space="preserve">
+    <value>胸围指数:</value>
+  </data>
+  <data name="CMILabelE" xml:space="preserve">
+    <value>CMI:</value>
+  </data>
+  <data name="FemaleRadioButtonCH" xml:space="preserve">
+    <value>女</value>
+  </data>
+  <data name="FemaleRadioButtonE" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="GenderGroupBoxCH" xml:space="preserve">
+    <value>性别</value>
+  </data>
+  <data name="GenderGroupBoxE" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="healthWeightFe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\healthWeightFe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="healthWeightM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\healthWeightM.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeightLabelCH" xml:space="preserve">
+    <value>身高 (cm):</value>
+  </data>
+  <data name="HeightLabelE" xml:space="preserve">
+    <value>Height (cm):</value>
+  </data>
+  <data name="ico1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico1.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LanguagesGroupBoxCH" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="LanguagesGroupBoxE" xml:space="preserve">
+    <value>Languages</value>
+  </data>
+  <data name="MaleRadioButtonCH" xml:space="preserve">
+    <value>男</value>
+  </data>
+  <data name="MaleRadioButtonE" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="NormalLabelCH" xml:space="preserve">
+    <value>正常 = 18.5~24.9</value>
+  </data>
+  <data name="NormalLabelE" xml:space="preserve">
+    <value>Normal = 18.5~24.9</value>
+  </data>
+  <data name="obeseFe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\obeseFe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="obeseM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\obeseM.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ObesityLabelCH" xml:space="preserve">
+    <value>肥胖 &gt;=30</value>
+  </data>
+  <data name="ObesityLabelE" xml:space="preserve">
+    <value>Obesity &gt;=30</value>
+  </data>
+  <data name="overweightFe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\overweightFe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OverweightLableCH" xml:space="preserve">
+    <value>超重 = 25~29.9</value>
+  </data>
+  <data name="OverweightLableE" xml:space="preserve">
+    <value>Overweight = 25~29.9</value>
+  </data>
+  <data name="overweightM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\overweightM.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PerfectLabelCH" xml:space="preserve">
+    <value>完美: 0.54~0.6</value>
+  </data>
+  <data name="PerfectLabelE" xml:space="preserve">
+    <value>Perfect: 0.54~0.6</value>
+  </data>
+  <data name="SamllLabelCH" xml:space="preserve">
+    <value>偏小:&lt;0.49</value>
+  </data>
+  <data name="SamllLabelE" xml:space="preserve">
+    <value>Small:&lt;0.49</value>
+  </data>
+  <data name="skinnyGirl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skinnyGirl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StandardLabelCH" xml:space="preserve">
+    <value>标准:0.5~0.53</value>
+  </data>
+  <data name="StandardLabelE" xml:space="preserve">
+    <value>Standard:0.5~0.53</value>
+  </data>
+  <data name="TitleFormCH" xml:space="preserve">
+    <value>身体健康指数</value>
+  </data>
+  <data name="TitleFormE" xml:space="preserve">
+    <value>Body Mass Index</value>
+  </data>
+  <data name="TooBigLabelCH" xml:space="preserve">
+    <value>太大: &gt;0.6</value>
+  </data>
+  <data name="TooBigLabelE" xml:space="preserve">
+    <value>Too Big: &gt;0.6</value>
+  </data>
+  <data name="underweightFe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\underweightFe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="underweightM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\underweightM.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UnderwightLabelCH" xml:space="preserve">
+    <value>偏低 = &lt;18.5</value>
+  </data>
+  <data name="UnderwightLabelE" xml:space="preserve">
+    <value>Underweight = &lt;18.5</value>
+  </data>
+  <data name="WeightLabelCH" xml:space="preserve">
+    <value>体重 (kg):</value>
+  </data>
+  <data name="WeightLabelE" xml:space="preserve">
+    <value>Weight (kg):</value>
+  </data>
+</root>
